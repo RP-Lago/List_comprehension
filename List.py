@@ -37,4 +37,16 @@ dicionario = {dicionario["nome"]:dicionario["final"] for dicionario in lista_de_
 print(dicionario)
 print(type(dicionario))
 
+#Print somente o seu nome "Robson" com inicial
+
+dicionario = {dicionario["nome"]:dicionario["inicial"] for dicionario in lista_de_dicionarios}
+print(dicionario["robson"])
+print(type(dicionario["robson"]))
+
+# Print Somente o seu nome com final. 
+
+dicionario = {dicionario["nome"]:dicionario["final"] for dicionario in lista_de_dicionarios}
+print(dicionario["robson"])
+print(type(dicionario["robson"]))
+
 
